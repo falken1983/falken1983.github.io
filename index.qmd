@@ -6,18 +6,17 @@ about:
   links:
     - icon: google
       text: Google Scholar
-      href: https://scholar.google.com/citations?hl=en&user=7jCW6_oAAAAJ&view_op=list_works&sortby=pubdate
+      href: https://scholar.google.com/citations?hl=ca&user=7jCW6_oAAAAJ&view_op=list_works&sortby=pubdate
     - icon: github
       text: Github
-      href: https://github.com/falken1983
-    # - icon: linkedin
-    #   text: LinkedIn
-    #   href: https://www.linkedin.com/in/lluisnavarro/
-    - icon: bicycle
-      text: Strava
-      href: https://www.strava.com/athletes/99068
+      href: https://github.com
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com
 ---
 
-I am a Sr. Quantitative Risk Analyst at CaixaBank. I have extensive background working with financial data sets and using advanced mathematical implementation to enable risk calculation and control of financial market positions of the bank.
+I am a Sr. Quantitative Risk Analyst at CaixaBank. I have extensive background working with financial data sets and using advanced mathematical implementation to enable risk calculations and control of the financial market positions of the bank.
 
-I recently expanded my skill set to include topics like Quarto, Tableau, `statmodels`, `scikit-learn`, `pytorch`, working in cross-language R/Python environment using Reticulate, and data visualizations using animation and interactivity by means of `streamlit` and `shiny` for Python frameworks. I am passionate about gravel and road cycling as well as indie Cinema.
+I recently expanded my skills set to include topics like Quarto, Google BigQuery & Looker, Tableau and QlikSense. Moreover I have an extensive knowledge in the Python libraries: `QuantLib`, `pandas`, `statmodels`, `scikit-learn`, `pytorch`, `streamlit` and `py-shiny` among others. 
+
+I am passionate about gravel and road cycling as well as indie Cinema.
