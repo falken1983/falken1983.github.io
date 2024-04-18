@@ -9,10 +9,13 @@ about:
       href: https://scholar.google.com/citations?hl=ca&user=7jCW6_oAAAAJ&view_op=list_works&sortby=pubdate
     - icon: github
       text: Github
-      href: https://github.com
-    - icon: linkedin
-      text: LinkedIn
-      href: https://linkedin.com
+      href: https://github.com/falken1983
+    - icon: app-indicator
+      text: FX-Visor WebApp
+      href: https://fx-visor.streamlit.app
+    # - icon: linkedin
+    #   text: LinkedIn
+    #   href: https://linkedin.com
 ---
 
 I am a Sr. Quantitative Risk Analyst at CaixaBank. I have extensive background working with financial data sets and using advanced mathematical implementation to enable risk calculations and control of the financial market positions of the bank.
