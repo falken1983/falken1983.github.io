@@ -1,5 +1,79 @@
-<iframe 
-  width="800"
-  height="800"
-  src="images/2023Q4_LluisNavarro_CV.pdf">
-</iframe>
+---
+title: "Curriculum Vitae"
+---
+
+<style>
+.cv-section { margin-bottom: 2rem; }
+.cv-section h2 { border-bottom: 2px solid #4a4a4a; padding-bottom: 0.3rem; }
+.cv-entry { margin-bottom: 1rem; }
+.cv-entry .role { font-weight: bold; font-size: 1.05rem; }
+.cv-entry .org { font-style: italic; }
+.cv-entry .period { color: #666; font-size: 0.9rem; }
+</style>
+
+## Lluís Navarro-Girbés {.text-center}
+
+::: {.text-center}
+[GitHub](https://github.com/falken1983) &nbsp;|&nbsp;
+[Google Scholar](https://scholar.google.com/citations?hl=ca&user=7jCW6_oAAAAJ)
+:::
+
+---
+
+::: {.cv-section}
+## Summary
+
+Sr. Quantitative Risk Analyst at CaixaBank with extensive background in financial data analysis and advanced mathematical modelling for market risk. Passionate about data science, cycling and indie cinema.
+:::
+
+---
+
+::: {.cv-section}
+## Experience
+
+::: {.cv-entry}
+[**Sr. Quantitative Risk Analyst**]{.role}  
+[CaixaBank]{.org}  
+[2018 – Present]{.period}
+
+- Market risk modelling and financial derivatives valuation using `QuantLib`.
+- Development of risk calculation pipelines in Python (`pandas`, `numpy`, `statsmodels`).
+- Dashboard and reporting with Tableau, QlikSense, Streamlit and Quarto.
+:::
+
+:::
+
+---
+
+::: {.cv-section}
+## Education
+
+::: {.cv-entry}
+[**MSc in Physics / Quantitative Finance**]{.role}  
+[Universitat de València]{.org}
+:::
+
+:::
+
+---
+
+::: {.cv-section}
+## Skills
+
+| Category | Tools & Technologies |
+|---|---|
+| Languages | Python, R, SQL |
+| ML / AI | scikit-learn, pytorch, statsmodels |
+| Data & BI | pandas, Google BigQuery, Looker, Tableau, QlikSense |
+| Web / Reporting | Quarto, Streamlit, py-shiny |
+| Finance | QuantLib |
+
+:::
+
+---
+
+::: {.cv-section}
+## Selected Publications
+
+See the full list on [Google Scholar](https://scholar.google.com/citations?hl=ca&user=7jCW6_oAAAAJ&view_op=list_works&sortby=pubdate).
+:::
