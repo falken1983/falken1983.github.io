@@ -5,5 +5,26 @@
     "title": "Lluís Navarro-Girbés",
     "section": "",
     "text": "I am a Sr. Quantitative Risk Analyst at CaixaBank. I have extensive background working with financial data sets and using advanced mathematical implementation to enable risk calculations and control of the financial market positions of the bank.\nI recently expanded my skills set to include topics like Quarto, Google BigQuery & Looker, Tableau and QlikSense. Moreover I have an extensive knowledge in the Python libraries: opensource-risk-engine, QuantLib, pandas, statsmodels, scikit-learn, pytorch, streamlit and py-shiny among others.\nI am passionate about gravel and road cycling as well as indie Cinema."
+  },
+  {
+    "objectID": "posts/fx_visor/index.html",
+    "href": "posts/fx_visor/index.html",
+    "title": "FX Visor",
+    "section": "",
+    "text": "fx_visor is a simple Streamlit-based web application.\nComparative time-series visualizations brings in a key component of financial analysis in order to get the intuition of trendy and underperforming financial assets.\nfx_visor is the data visualization module of the data project fx_letor with the aim to predict rankings of a set of currencies by means of Machine Learning Learning-to-Rank models. This could facilitate investment decision making, easing dynamic portfolio construction.\nBoth fx_visorand fx_letor are currently under development.\n\n\n\nfx_visor deployed at Streamlit Cloud"
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Lluís Navarro-Girbés\nQuantitative Development & Data Science\n\n\nlluis2001@proton.me · Google Scholar\n\n\n\nProfile\nI’m passionate about Quantitative Development of Financial Models and the modern interplay between AI, Finance, and Accounting. I have worked in the area of Mathematical and Statistical Modeling for more than 20 years, now fully focused on the adoption of Data Science and Machine Learning solutions in the financial and academic sector.\n\n\n\nExperience\n\nSenior Quant Risk Analyst · CaixaBank, Barcelona · 12/2016 – Currently\nValidation of Stochastic Fair Value Models and Payoff Functions for the CaixaBank Financial Markets Risk Desk. Designing Probabilistic Simulation-Based Models compliant with several regulation requirements. Passionate about clean code, version control, and efficient numerical programming to avoid computational burdens in high-intensive calculations.\n\n\nQuant Analyst · Consultora Riesgos Financieros, Madrid · 07/2015 – 11/2016\nDevelopment of a micro-based Credit Model to estimate Private Ratings for Securitization Funds. Expert Third-Party Valuations and Risk Measurements for Financial Institutions.\n\n\nPostdoctoral Scholar · Univ. CEU Cardenal Herrera, Elche · 06/2013 – 06/2015\nResearch Associate under the Prometheus II Grant of Excellence. Development of Screening Rules inferred by Heuristic Ranking of Financial Stocks. Lecturing Financial Econometrics and Portfolio Valuation.\n\n\nResearch PhD Assistant Professor · Univ. Alicante, Alicante · 09/2012 – 06/2013\nDevelopment of Numerical Methods for Parabolic PDEs related with Free Frontier Problems in Quantitative Finance (Option Pricing). Lecturing Introduction to Financial Mathematics.\n\n\n\n\nEducation\n\nPhD in Quantitative Finance · Univ. CEU Cardenal Herrera, València · 2013\nDissertation: “Efficient methods for calibrating and pricing interest rate options”\n\n\nMaster in Mathematical Finance · Univ. Autònoma de Barcelona, Barcelona · 2002\n\n\nBSc in Physics · Univ. València, València · 1997 – 2001\n\n\n\n\nSkills\n\n\nProgramming & Publishing: Python, MATLAB, R, bash, zsh, Quarto Markdown, LaTeX, SQL, C#\nData Science Toolboxes: numpy, pandas, scikit-learn\nVisualisation: matplotlib, streamlit, shiny\nControl: git\n\n\nDeployment: poetry, cookiecutter, Docker\nLanguages: English (Fluent) · Catalan (Native)\nCertificates: Datamecum Data Science Specialist · Google Cloud ML Engineer (ongoing) · CAP\nGeneral Skills: Quantitative Finance · Computational Methods · Applied Mathematics · ML / Deep Learning\n\n\n\n\n\nAchievements & Awards\n\n2025: Accredited as Permanent Associate Professor by ANECA.\n2025: Accredited as Associate Professor by ANECA.\n2013: Accredited as Associate Professor & PhD Assistant Professor by AVAP.\n2011–2013: Extraordinary PhD Award (Univ. CEU-Cardenal Herrera).\n2005: Iberdrola Award for the best Master Thesis on Quant Finance.\n\n\n\n\nSelected Publications\n\n\nScreening Rules and Portfolio Performance (2019). A. León, Ll. Navarro, B. Nieto. The North American Journal of Economics and Finance, Vol. 48.\nA direct LU solver for pricing American bond options… (2017). A. Falcó, Ll. Navarro, C. Vázquez. Journal of Computational and Applied Mathematics, Vol. 309.\nOn the calibration of a Gaussian Heath-Jarrow-Morton model… (2011). A. Falcó, Ll. Navarro, J. Nave. Quantitative Finance, Vol. 11, Issue 4.\n\n\nSee the full list on Google Scholar."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Data Projects",
+    "section": "",
+    "text": "FX Visor\n\n\n\n\n\n\nnews\n\n\ndata\n\n\nvisualizations\n\n\nquantitative finance\n\n\n\n\n\n\n\n\n\nJan 22, 2023\n\n\nLluís Navarro-Girbés\n\n\n\n\n\n\nNo matching items"
   }
 ]
