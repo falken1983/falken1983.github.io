@@ -2,78 +2,179 @@
 title: "Curriculum Vitae"
 ---
 
+```{=html}
 <style>
-.cv-section { margin-bottom: 2rem; }
-.cv-section h2 { border-bottom: 2px solid #4a4a4a; padding-bottom: 0.3rem; }
-.cv-entry { margin-bottom: 1rem; }
-.cv-entry .role { font-weight: bold; font-size: 1.05rem; }
-.cv-entry .org { font-style: italic; }
-.cv-entry .period { color: #666; font-size: 0.9rem; }
+  :root {
+    --primary:   #1c355c;
+    --secondary: #475569;
+    --accent:    #3b82f6;
+    --muted:     #5a6472;
+  }
+
+  /* ── Header ──────────────────────────────── */
+  .cv-name    { color: var(--primary); font-size: 2.1rem; font-weight: 700;
+                letter-spacing: .02em; margin-bottom: .15rem; }
+  .cv-subtitle{ color: var(--secondary); font-size: 1.15rem; font-style: italic;
+                font-weight: 500; margin-bottom: .9rem; }
+  .cv-contact { font-size: .95rem; color: var(--muted); margin-bottom: 2rem; }
+  .cv-contact a { color: var(--accent); text-decoration: none; }
+
+  /* ── Sections ────────────────────────────── */
+  .cv-section > h3 {
+    color: var(--primary);
+    font-size: 1.05rem;
+    font-weight: 700;
+    letter-spacing: .07em;
+    text-transform: uppercase;
+    border-bottom: 2px solid var(--primary);
+    padding-bottom: .3rem;
+    margin-top: 1.8rem;
+    margin-bottom: .9rem;
+  }
+
+  /* ── Entries ─────────────────────────────── */
+  .cv-entry   { margin-bottom: .9rem; }
+  .cv-role    { font-weight: 700; font-size: 1.05rem; color: #111; }
+  .cv-org     { font-style: italic; color: var(--secondary); }
+  .cv-period  { font-size: .88rem; color: var(--muted); }
+
+  /* ── Publications ────────────────────────── */
+  .cv-pubs li { margin-bottom: .45rem; }
+
+  /* ── Skills two-column ───────────────────── */
+  .cv-skills-grid { display: grid; grid-template-columns: 1fr 1fr;
+                    gap: .5rem 2.5rem; }
+  .cv-skills-grid strong { color: var(--primary); }
+
+  @media (max-width: 720px) {
+    .cv-skills-grid { grid-template-columns: 1fr; }
+    .cv-name { font-size: 1.7rem; }
+  }
 </style>
+```
 
-## Lluís Navarro-Girbés {.text-center}
+::: text-center
+[**Lluís Navarro-Girbés**]{.cv-name}
 
-::: {.text-center}
-[GitHub](https://github.com/falken1983) &nbsp;|&nbsp;
-[Google Scholar](https://scholar.google.com/citations?hl=ca&user=7jCW6_oAAAAJ)
+[Quantitative Development & Data Science]{.cv-subtitle}
 :::
 
----
-
-::: {.cv-section}
-## Summary
-
-Sr. Quantitative Risk Analyst at CaixaBank with extensive background in financial data analysis and advanced mathematical modelling for market risk. Passionate about data science, cycling and indie cinema.
+::: {.text-center .cv-contact}
+[lluis2001\@proton.me](mailto:lluis2001@proton.me) · [Google Scholar](https://scholar.google.com/citations?hl=ca&user=7jCW6_oAAAAJ)
 :::
 
----
+------------------------------------------------------------------------
 
-::: {.cv-section}
-## Experience
+::: cv-section
+### Profile
 
-::: {.cv-entry}
-[**Sr. Quantitative Risk Analyst**]{.role}  
-[CaixaBank]{.org}  
-[2018 – Present]{.period}
-
-- Market risk modelling and financial derivatives valuation using `QuantLib`.
-- Development of risk calculation pipelines in Python (`pandas`, `numpy`, `statsmodels`).
-- Dashboard and reporting with Tableau, QlikSense, Streamlit and Quarto.
+I'm passionate about Quantitative Development of Financial Models and the modern interplay between AI, Finance, and Accounting. I have worked in the area of Mathematical and Statistical Modeling for more than 20 years, now fully focused on the adoption of Data Science and Machine Learning solutions in the financial and academic sector.
 :::
 
+------------------------------------------------------------------------
+
+::::::: cv-section
+### Experience
+
+::: cv-entry
+[**Senior Quant Risk Analyst**]{.cv-role} · [CaixaBank, Barcelona]{.cv-org} · [12/2016 – Currently]{.cv-period}
+
+Validation of Stochastic Fair Value Models and Payoff Functions for the CaixaBank Financial Markets Risk Desk. Designing Probabilistic Simulation-Based Models compliant with several regulation requirements. Passionate about clean code, version control, and efficient numerical programming to avoid computational burdens in high-intensive calculations.
 :::
 
----
+::: cv-entry
+[**Quant Analyst**]{.cv-role} · [Consultora Riesgos Financieros, Madrid]{.cv-org} · [07/2015 – 11/2016]{.cv-period}
 
-::: {.cv-section}
-## Education
-
-::: {.cv-entry}
-[**MSc in Physics / Quantitative Finance**]{.role}  
-[Universitat de València]{.org}
+Development of a micro-based Credit Model to estimate Private Ratings for Securitization Funds. Expert Third-Party Valuations and Risk Measurements for Financial Institutions.
 :::
 
+::: cv-entry
+[**Postdoctoral Scholar**]{.cv-role} · [Univ. CEU Cardenal Herrera, Elche]{.cv-org} · [06/2013 – 06/2015]{.cv-period}
+
+Research Associate under the Prometheus II Grant of Excellence. Development of Screening Rules inferred by Heuristic Ranking of Financial Stocks. Lecturing Financial Econometrics and Portfolio Valuation.
 :::
 
----
+::: cv-entry
+[**Research PhD Assistant Professor**]{.cv-role} · [Univ. Alicante, Alicante]{.cv-org} · [09/2012 – 06/2013]{.cv-period}
 
-::: {.cv-section}
-## Skills
+Development of Numerical Methods for Parabolic PDEs related with Free Frontier Problems in Quantitative Finance (Option Pricing). Lecturing Introduction to Financial Mathematics.
+:::
+:::::::
 
-| Category | Tools & Technologies |
-|---|---|
-| Languages | Python, R, SQL |
-| ML / AI | scikit-learn, pytorch, statsmodels |
-| Data & BI | pandas, Google BigQuery, Looker, Tableau, QlikSense |
-| Web / Reporting | Quarto, Streamlit, py-shiny |
-| Finance | QuantLib |
+------------------------------------------------------------------------
 
+:::::: cv-section
+### Education
+
+::: cv-entry
+[**PhD in Quantitative Finance**]{.cv-role} · [Univ. CEU Cardenal Herrera, València]{.cv-org} · [2013]{.cv-period}
+
+*Dissertation:* "Efficient methods for calibrating and pricing interest rate options"
 :::
 
----
+::: cv-entry
+[**Master in Mathematical Finance**]{.cv-role} · [Univ. Autònoma de Barcelona, Barcelona]{.cv-org} · [2002]{.cv-period}
+:::
 
-::: {.cv-section}
-## Selected Publications
+::: cv-entry
+[**BSc in Physics**]{.cv-role} · [Univ. València, València]{.cv-org} · [1997 – 2001]{.cv-period}
+:::
+::::::
+
+------------------------------------------------------------------------
+
+:::::: cv-section
+### Skills
+
+::::: cv-skills-grid
+<div>
+
+**Programming & Publishing:** Python, MATLAB, R, bash, zsh, Quarto Markdown, LaTeX, SQL, C#
+
+**Data Science Toolboxes:** numpy, pandas, scikit-learn
+
+**Visualisation:** matplotlib, streamlit, shiny
+
+**Control:** git
+
+</div>
+
+<div>
+
+**Deployment:** poetry, cookiecutter, Docker
+
+**Languages:** English (Fluent) · Catalan (Native)
+
+**Certificates:** Datamecum Data Science Specialist · Google Cloud ML Engineer *(ongoing)* · CAP
+
+**General Skills:** Quantitative Finance · Computational Methods · Applied Mathematics · ML / Deep Learning
+
+</div>
+:::::
+::::::
+
+------------------------------------------------------------------------
+
+::: cv-section
+### Achievements & Awards
+
+-   **2025:** Accredited as Permanent Associate Professor by ANECA.
+-   **2025:** Accredited as Associate Professor by ANECA.
+-   **2013:** Accredited as Associate Professor & PhD Assistant Professor by AVAP.
+-   **2011–2013:** Extraordinary PhD Award (Univ. CEU-Cardenal Herrera).
+-   **2005:** Iberdrola Award for the best Master Thesis on Quant Finance.
+:::
+
+------------------------------------------------------------------------
+
+:::: cv-section
+### Selected Publications
+
+::: cv-pubs
+-   **Screening Rules and Portfolio Performance** (2019). *A. León, Ll. Navarro, B. Nieto.* The North American Journal of Economics and Finance, Vol. 48.
+-   **A direct LU solver for pricing American bond options...** (2017). *A. Falcó, Ll. Navarro, C. Vázquez.* Journal of Computational and Applied Mathematics, Vol. 309.
+-   **On the calibration of a Gaussian Heath-Jarrow-Morton model...** (2011). *A. Falcó, Ll. Navarro, J. Nave.* Quantitative Finance, Vol. 11, Issue 4.
+:::
 
 See the full list on [Google Scholar](https://scholar.google.com/citations?hl=ca&user=7jCW6_oAAAAJ&view_op=list_works&sortby=pubdate).
-:::
+::::
