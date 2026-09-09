@@ -1,5 +1,7 @@
 project:
   type: website
+  output-dir: docs
+  title: My Blogfolio
 
 website:
   title: "Lluís Navarro-Girbés" 
