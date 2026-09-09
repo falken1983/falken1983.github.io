@@ -1,2 +1,2 @@
 # Tech Portfolio
- [Posit Cloud Blog](https://falken1983-lluisnavarro.share.connect.posit.cloud/) with my Data Science Portfolio.
+ [gh-pages](https://falken1983.github.io/) with my Blogfolio and other projects still in dev.
