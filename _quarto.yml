@@ -5,6 +5,7 @@ project:
 
 website:
   title: "Lluís Navarro-Girbés" 
+  site-url: "https://falken1983.github.io" # Actualiza con la nueva URL
   navbar:
     left:
       - text: Home
