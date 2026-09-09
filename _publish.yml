@@ -1,0 +1,5 @@
+project:
+  type: website
+  output-dir: docs
+  title: My Blogfolio
+  description: A personal blog and portfolio website
