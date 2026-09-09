@@ -3,4 +3,7 @@
 .RData
 .Ruserdata
 
-/.quarto/
+.quarto/
+_site/
+images
+cv_stuff
