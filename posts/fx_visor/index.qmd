@@ -13,4 +13,4 @@ Comparative time-series visualizations brings in a key component of financial an
 
 Both `fx_visor`and `fx_letor` are currently under development.
 
-[![fx_visor deployed at Streamlit Cloud](./st_scrot.jpg)](https://fx-visor.streamlit.app/)
+[![fx_visor deployed at Streamlit Cloud](./st_scrot.jpg)](https://falken1983-fxvisor.share.connect.posit.cloud)
