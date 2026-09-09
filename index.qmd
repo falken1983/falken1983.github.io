@@ -12,7 +12,7 @@ about:
       href: https://github.com/falken1983
     - icon: app-indicator
       text: FX-Visor WebApp
-      href: https://fx-visor.streamlit.app
+      href: //https://falken1983-fxvisor.share.connect.posit.cloud
     # - icon: linkedin
     #   text: LinkedIn
     #   href: https://linkedin.com
