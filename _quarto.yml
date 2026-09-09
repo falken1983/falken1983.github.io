@@ -7,7 +7,7 @@ website:
     left:
       - text: Home
         href: index.qmd
-      - text: Data Projects
+      - text: Projects
         href: projects.qmd
       - text: Resume
         href: resume.qmd
